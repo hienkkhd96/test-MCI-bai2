@@ -16,7 +16,6 @@ function bracketCombinations(num, numStart = 0, str = "") {
     // If no more brackets can be added
     if (num === 0 && numStart === 0) {
       result.push(str);
-      console.log(num, numStart);
     }
   }
   return result.length;
