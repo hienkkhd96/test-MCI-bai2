@@ -20,5 +20,5 @@ function bracketCombinations(num, numStart = 0, str = "") {
   }
   return result.length;
 }
-console.log(bracketCombinations(3, 0));
+console.log(bracketCombinations(3));
 console.log(result);
